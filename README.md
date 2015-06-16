@@ -1,2 +1,2 @@
 # PullToRefreshExplore
-eplore pull to refresh
+explore pull to refresh
