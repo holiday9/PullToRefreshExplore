@@ -26,6 +26,8 @@ public class MainActivity extends ActionBarActivity implements PullToRefreshBase
         mAdapter = new TestAdapter();
         mPullToRefreshListView.setAdapter(mAdapter);
         mPullToRefreshListView.setMode(PullToRefreshBase.Mode.BOTH);
+        mPullToRefreshListView.getLoadingLayoutProxy().setLastUpdatedLabel("上次更新时间:" + System.currentTimeMillis());
+        mPullToRefreshListView.getLoadingLayoutProxy().setRefreshingLabel("RefreshingLable");
         mPullToRefreshListView.setOnRefreshListener(this);
     }
 

@@ -1,2 +1,8 @@
 1. 运行最简单的上线拉刷新
-
+2.ing ? 上拉刷新的原理
+    阅读onInterceptTouchEvent
+    pullEvent
+    refreshing 中出现进度条的原理
+    用的是listView的setFoot方法。
+3. 249行
+mRefreshableView.addFooterView(mLvFooterLoadingFrame, null, false);会造成刷新异常。

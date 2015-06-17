@@ -60,7 +60,7 @@ public abstract class PullToRefreshAdapterViewBase<T extends AbsListView> extend
 	private View mEmptyView;
 
 	private IndicatorLayout mIndicatorIvTop;
-	private IndicatorLayout mIndicatorIvBottom;
+	private IndicatorLayout mIndicatorIvBottom;	/// ??? 是什么
 
 	private boolean mShowIndicator;
 	private boolean mScrollEmptyView = true;

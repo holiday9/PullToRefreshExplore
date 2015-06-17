@@ -243,8 +243,10 @@ public class PullToRefreshListView extends PullToRefreshAdapterViewBase<ListView
 			mFooterLoadingView.setVisibility(View.GONE);
 			mLvFooterLoadingFrame.addView(mFooterLoadingView, lp);
 
-			//
-			mRefreshableView.addFooterView(mLvFooterLoadingFrame, null, false);
+			/*
+			 * 这里打开后会让footView的显示在不满一屏的时候出现
+			 */
+//			mRefreshableView.addFooterView(mLvFooterLoadingFrame, null, false);
 			//
 			
 			/**
